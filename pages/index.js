@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
 import { WalletProvider } from "@solana/wallet-adapter-react";
 import { ConnectionProvider } from "@solana/web3.js";
 import '../public/styles.css';
