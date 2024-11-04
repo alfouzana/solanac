@@ -1,39 +1,38 @@
 {
-    "name": "solana-token-creator",
-    "version": "1.0.0",
-    "description": "A web application to create Solana tokens with a connected wallet",
-    "main": "src/index.js",
-    "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test",
-      "eject": "react-scripts eject"
-    },
-    "dependencies": {
-      "@solana/spl-token": "^0.2.0",
-      "@solana/web3.js": "^1.60.0",
-      "@solana/wallet-adapter-react": "^0.13.3",
-      "@solana/wallet-adapter-base": "^0.7.1",
-      "@metaplex-foundation/mpl-token-metadata": "^1.0.0",
-      "axios": "^0.27.2",
-      "react": "^18.0.0",
-      "react-dom": "^18.0.0",
-      "react-icons": "^4.4.0",
-      "react-hot-toast": "^2.2.0",
-      "react-scripts": "5.0.0"
-    },
-    "devDependencies": {
-      "dotenv": "^10.0.0"
-    },
-    "proxy": "http://localhost:5000",
-    "keywords": [
-      "Solana",
-      "Token",
-      "Web3",
-      "Phantom Wallet",
-      "IPFS"
-    ],
-    "author": "Your Name",
-    "license": "MIT"
-  }
-  
+  "name": "solana-token-creator",
+  "version": "1.0.0",
+  "description": "A web application to create Solana tokens with a connected wallet",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.3.5",
+    "@solana/web3.js": "^1.31.0",
+    "@solana/wallet-adapter-react": "^0.15.3",
+    "@solana/wallet-adapter-base": "^0.9.3",
+    "@metaplex-foundation/mpl-token-metadata": "^2.3.3",
+    "axios": "^1.6.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-hot-toast": "^2.4.1",
+    "react-scripts": "5.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "proxy": "http://localhost:5000",
+  "keywords": [
+    "Solana",
+    "Token",
+    "Web3",
+    "Phantom Wallet",
+    "IPFS"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
